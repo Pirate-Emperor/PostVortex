@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="5sp"
+        android:layout_height="wrap_content">
+    <ImageView
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:src="@drawable/camera"
+            />
+    <ImageView
+            android:id="@+id/logo"
+            android:layout_width="300sp"
+            android:layout_height="50sp"
+            android:src="@drawable/ig"
+            />
+
+    <ImageView
+            android:layout_width="35sp"
+            android:layout_height="35sp"
+            android:layout_gravity="end"
+            android:src="@drawable/send" />
+</LinearLayout>
+<androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="775dp"
+        android:color="@android:color/white">
+</androidx.recyclerview.widget.RecyclerView>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:src="@drawable/fabs" />
+</LinearLayout>
